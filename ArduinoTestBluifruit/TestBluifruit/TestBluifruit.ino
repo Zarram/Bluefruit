@@ -93,7 +93,7 @@ void setup(void)
   }
 
   //Give module a new name
-  ble.println("AT+GAPDEVNAME=TLONE"); // named TLONE
+  ble.println("AT+GAPDEVNAME=meme"); // named TLONE
 
   // Check response status
   ble.waitForOK();
@@ -114,7 +114,7 @@ void setup(void)
     @brief  Constantly poll for new command or response data
 */
 /**************************************************************************/
-void loop(void)
+/*void loop(void)
 {
   // Check for user input
   char n, inputs[BUFSIZE + 1];
@@ -140,4 +140,4 @@ void loop(void)
     Serial.print((char)c);
   }
   delay(1000);
-}
+*/
